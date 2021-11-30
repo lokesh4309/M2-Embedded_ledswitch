@@ -6,6 +6,6 @@
 
 void switch_off(void)
 {
-
+       PORTB &= (~(1<<PINB2))&(~(1<<PINB3));
 
 }
