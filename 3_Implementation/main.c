@@ -10,12 +10,18 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-int main(void)
+
+void peripheral_init(void)
 {
 	DDRB |= (1 << DDB2)|(1<<DDB3);
 	DDRB &= ~(1 << DDB0);
+	//intialisation of ports
+}
 
-
+int main(void)
+{
+	
+	peripheral_init();
 	while (1)
 	{
 		
