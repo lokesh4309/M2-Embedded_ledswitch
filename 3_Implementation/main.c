@@ -28,18 +28,11 @@ int main(void)
 		if (!(PINB&(1<<PINB0)))
 		{
 			
-			PORTB |=(1<<PORTB2);
-			PORTB &=~(1<<PORTB3);
-			_delay_ms(2000);
-			
-			PORTB &=~(1<<PORTB2);
-			_delay_ms(4000);
-			PORTB |=(1<<PORTB3);
-			_delay_ms(2000);
+			switch_on();
 		}
 		else
 		{
-			PORTB &= (~(1<<PINB2))&(~(1<<PINB3));
+			switch_off();
 		}
 
 	}
