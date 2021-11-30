@@ -4,7 +4,7 @@
 
 
 
-void switch_off(void)
+void switch_off()
 {
        PORTB &= (~(1<<PINB2))&(~(1<<PINB3));
 
