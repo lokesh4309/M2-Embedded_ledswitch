@@ -11,6 +11,10 @@
 #include <util/delay.h>
 
 
+#include "switch_on.c"
+#include "switch_off.c"
+
+
 void peripheral_init(void)
 {
 	DDRB |= (1 << DDB2)|(1<<DDB3);
