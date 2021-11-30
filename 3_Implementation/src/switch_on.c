@@ -4,7 +4,7 @@
 
 
 
-void switch_on(void)
+void switch_on()
 {
     PORTB |=(1<<PORTB2);
 		PORTB &=~(1<<PORTB3);
