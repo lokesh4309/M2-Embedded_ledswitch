@@ -6,7 +6,13 @@
 
 void switch_on(void)
 {
-
-
+    PORTB |=(1<<PORTB2);
+		PORTB &=~(1<<PORTB3);
+		_delay_ms(2000);
+		
+		PORTB &=~(1<<PORTB2);
+		_delay_ms(4000);
+		PORTB |=(1<<PORTB3);
+		_delay_ms(2000);
 
 }
