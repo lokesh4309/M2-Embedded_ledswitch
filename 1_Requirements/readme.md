@@ -66,15 +66,3 @@
 | LLR_2 	| Swtich                   	| Implemented 	|
 | LLR_3 	| Two LED                  	| Implemented 	|
 | LLR_4 	| Visual studio & SimulIDE 	| Implemented 	|
-
-
-
-
-
-
-
-
-
-
-    
-
