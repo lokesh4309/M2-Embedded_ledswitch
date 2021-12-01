@@ -1,6 +1,5 @@
 
 /*
- * main.c
  * Created: 30-11-2021 21:10:00
  * Author : Gulshan J Dharmaraj
  */ 
@@ -15,9 +14,9 @@
 
 void peripheral_init(void)
 {
-	DDRB |= (1 << DDB2)|(1<<DDB3); //initial
-	DDRB &= ~(1 << DDB0);
-	//intialisation of ports
+	DDRB |= (1 << DDB2)|(1<<DDB3); //to initialize the ports B2 and B3
+	DDRB &= ~(1 << DDB0); //to initialize the switch to port B0
+	//intialization of ports
 }
 
 int main(void)
