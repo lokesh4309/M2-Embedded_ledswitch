@@ -15,7 +15,7 @@
 
 void peripheral_init(void)
 {
-	DDRB |= (1 << DDB2)|(1<<DDB3);
+	DDRB |= (1 << DDB2)|(1<<DDB3); //initial
 	DDRB &= ~(1 << DDB0);
 	//intialisation of ports
 }
@@ -23,18 +23,18 @@ void peripheral_init(void)
 int main(void)
 {
 	
-	peripheral_init();
+	peripheral_init(); //to intialise port
 	while (1)
 	{
 		
 		if (!(PINB&(1<<PINB0)))
 		{
 			
-			switch_on();
+			switch_on(); //if switch is on
 		}
 		else
 		{
-			switch_off();
+			switch_off(); //if switch is off
 		}
 
 	}
