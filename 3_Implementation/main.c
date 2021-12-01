@@ -11,8 +11,7 @@
 #include <util/delay.h>
 
 
-#include "switch_on.c"
-#include "switch_off.c"
+#include "switch.h"
 
 
 void peripheral_init(void)
