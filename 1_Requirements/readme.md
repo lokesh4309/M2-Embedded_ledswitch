@@ -27,16 +27,16 @@
     1.It can switch off the LED's when switch is in off state.
     2.It can switch on the LED's when switch is in on state.
 # 4W's and 1 H's
-   ## Why:
+   ## Why
     1.To blink two LED's using a switch in ATmega328.
     2.To understand basic concepts in ATmega328.
-   ## Where:
+   ## Where
     1. It can be used anywhere.
     2. It can be used for understanding purposes in schools and colleges.
-   ## Who:
+   ## Who
     1.It can be used by students.
     2.It can be used by anyone who are new to embedded programming language.
-   ## When:
+   ## When
     1.People are trying to learn an embedded programming language.
     2.In schools and colleges it can be implemented.
    ## How
