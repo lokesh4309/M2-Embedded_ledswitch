@@ -52,9 +52,20 @@
     1.Program can be made more complex by adding more components.
    ## Threats
     1.There are advanced programs which are simple to learn is out already.
-
-
-
+# High Level Requirements
+| Id    	| Description     	| Status      	|
+|-------	|-----------------	|-------------	|
+| HLR_1 	| Microcontroller 	| Implemented 	|
+| HlR_2 	| Swtich          	| Implemented 	|
+| HLR_3 	| Two LED         	| Implemented 	|
+| HLR_4 	| Software        	| Implemented 	|
+# Low Level Requirements
+| Id    	| Description              	| Status      	|
+|-------	|--------------------------	|-------------	|
+| LLR_1 	| ATmega328                	| Implemented 	|
+| LLR_2 	| Swtich                   	| Implemented 	|
+| LLR_3 	| Two LED                  	| Implemented 	|
+| LLR_4 	| Visual studio & SimulIDE 	| Implemented 	|
 
 
 
