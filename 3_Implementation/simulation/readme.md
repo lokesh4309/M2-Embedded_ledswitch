@@ -3,3 +3,5 @@
 # Switch is On
 ![Screenshot (22)](https://user-images.githubusercontent.com/94396238/144293698-9a8abfbe-ddfc-446f-bb39-a5c3dd658f34.png)
 ![Screenshot (20)](https://user-images.githubusercontent.com/94396238/144293798-4c050c6c-e38f-4143-9de2-dcead97ca734.png)
+
+![output 1](https://user-images.githubusercontent.com/94420732/144377138-5f2f39ad-d935-4682-8f21-b5c104dfb061.gif)
