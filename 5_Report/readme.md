@@ -83,7 +83,7 @@ It has simple features.
 | document | Doxygen documentation |
 | inc | All header files |
 | simulation | simulation files |
-| src | Main source code for calculator |
+| src | Main source code |
 # Test Plan
 # High Level Requirement
 | Id    	| Description 	| Expected I/P 	| Expected O/P 	| Actual O/P 	| Type Of Test 	|
